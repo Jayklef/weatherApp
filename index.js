@@ -66,6 +66,13 @@ function displayWeatherInfo(data){
     weatherEmoji.textContent = getWeatherEmoji(id);
 
 
+    cityDisplay.classList.add("cityDisplay");
+    temperature.classList.add("temperature");
+    humidityD.classList.add("humidityD");
+    desc.classList.add("desc");
+    weatherEmoji.classList.add("weatherEmoji");
+
+
     card.appendChild(cityDisplay);
     card.appendChild(temperature);
     card.appendChild(humidityD);
