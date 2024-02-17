@@ -60,12 +60,12 @@ p{
     margin-bottom: 25px;
 }
 
-.humidity{
+.humidityD{
     font-weight: bold;
     margin-bottom: 25px;
 }
 
-.description{
+.desc{
     font-style: italic;
     font-weight: bold;
     font-size: 2rem;
